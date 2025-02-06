@@ -1,8 +1,8 @@
-# [Oh My Fish][oh-my-fish] official package repository
+# [Marina][marina] official package repository
 
-Primary package repository for the [Oh My Fish][oh-my-fish] [Fish shell][fish] framework.
+Primary package repository for the [Marina][marina] [Fish shell][fish] framework.
 
-This repository contains a list of public Fish packages that can be installed by name using Oh My Fish. The goal of this repo is to maintain a discoverable index of quality Fish packages that can easily be maintained by the Fish community.
+This repository contains a list of public Fish packages that can be installed by name using Marina. The goal of this repo is to maintain a discoverable index of quality Fish packages that can easily be maintained by the Fish community.
 
 ## Repository format
 
@@ -19,7 +19,7 @@ The name of each property file indicates the package name, and the various prope
 
 Want to add your own package to the public repository? First, make a fork of this Git repository. Then create a package description file inside the `packages/` directory. The file name should be the name of your package without any file extensions, and should contain at least these properties:
 
-```
+```env
 type = plugin
 repository = YOUR-PACKAGE-URL
 maintainer = YOUR-NAME <YOUR-EMAIL>
@@ -33,5 +33,5 @@ Once you've created and committed your package description file, [open a pull re
 Once your pull request is merged, your package will be immediately available for all users to install!
 
 [fish]: http://fishshell.com
-[new-pr]: https://github.com/oh-my-fish/packages-main/pull/new/master
-[oh-my-fish]: https://github.com/oh-my-fish/oh-my-fish
+[new-pr]: https://github.com/marina/packages/pull/new/master
+[marina]: https://github.com/fish-marina/marina
